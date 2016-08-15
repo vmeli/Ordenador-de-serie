@@ -1,0 +1,17 @@
+.wrap {
+	height: 100vh;
+    display: flex;        /* centrar el texto */
+    align-items: center;
+    justify-content: center; /* end centrar el texto */
+}
+
+.wrap div {
+	display: inline-block;
+    margin-right: 0.5em;
+    font-size: 2em;
+}
+
+.highlight {
+    font-weight: bold;
+    color: red;
+}
